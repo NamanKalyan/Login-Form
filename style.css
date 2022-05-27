@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: url("bg.jpg")center fixed no-repeat;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+.container {
+    height: 550px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.text {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.box {
+    margin-left: 15px;
+    height: 40px;
+    width: 255px;
+    border-radius: 10px;
+    border: 3px solid lightgrey;
+    outline: none;
+    font-size: 15px;
+}
+
+.btns {
+    margin-left: 20px;
+}
+
+.btn {
+    width: 300px;
+    height: 45px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    /* border-color: black; */
+    border: 2px solid black;
+    background-color: rgb(45, 45, 236);
+}
+
+.icon {
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+}
+
+.google {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 96px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.google:hover {
+    background-color: white;
+    color: black;
+}
+
+.facebook {
+    background-color: blue;
+    color: white;
+    height: 45px;
+    width: 96px;
+    cursor: pointer;
+    border: 2px solid blue;
+    margin-left: 6px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.facebook:hover {
+    background-color: white;
+    color: blue;
+}
+
+.github {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 96px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-left: 6px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.github:hover {
+    background-color: white;
+    color: black;
+}
